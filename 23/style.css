@@ -1,0 +1,257 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Arial;
+
+}
+
+#container {
+width: 800px;
+margin: 0 auto;	
+	
+	
+	
+	
+	
+}
+
+
+div{
+	
+	
+	bord2er: 2px solid red;
+}
+
+.logo {
+	font-size: 30px;
+	
+	
+	
+}
+.logo span{
+	
+	color: black;
+    text-shadow:2px 2px  white;
+
+	
+	
+	
+}
+
+.slogan{
+	text-align: right;
+
+}
+.slogan a{
+	color: white;
+	text-align: right;
+	
+	
+}
+#menu {
+		background: url('images/menuBackground.gif');
+	
+}
+
+#menu  ul{
+	text-align: center;
+	
+	
+	
+}
+
+#menu ul li a{
+	
+	
+}
+
+#menu ul li{
+	display: inline;
+ padding: 10px;
+border-right: 1px solid gray;
+
+}
+#menu ul li#active{
+	
+	border-left: 1px solid gray;
+	
+}
+
+#menu ul li a {
+	padding: 10px;
+	font-size: 18px;
+	line-height: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: White;
+	text-decoration: none;
+	
+}
+
+#header {
+	background-image: url("images/headerBackground.jpg");
+	background-repeat: no-repeat;
+    background-position:  0px;
+	
+	}
+
+
+#menu ul li a:hover {
+	text-decoration: none;
+	color: #FAE7D5;
+}
+
+
+
+.kol_lewa {
+	
+	width:580px;
+	margin-left: 0px;
+	text-align: left;
+	float: left;
+}
+
+.kol_praw{
+    float:right;
+	width: 200px;
+
+	
+}
+.kol_lewa a{
+	color: yellow;
+	
+	
+}
+.floaright{
+	
+	float:right;
+	border: 1px solid grey;
+	padding: 2px;
+	margin: 10px;
+}
+
+.czysc {
+	clear: both;
+	
+	
+}
+#footer {
+text-align: center;
+background: url('images/footerBackground.gif');
+}
+
+#footer a{
+color: white;
+	
+	
+}
+
+#footer a:hover{
+	color: yellow;
+	
+}
+#footer span  a{
+color: green;	
+}
+
+
+.nav_praw a{
+	color:yellow;
+	
+}
+
+.kol_praw{
+	border-left: 2px gray solid;
+	
+}
+
+.nav_praw ul li{
+	list-style-image: url(punkt.jpg);
+	
+	
+}
+
+
+#produkty {
+background-color:#ff;
+line-height: 1,5em;
+width: 55%;
+margin: 0 2% 1em;
+padding: 1em 2%;
+float: left;
+border: 4px double #ffbc53;
+	
+	
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contener_slider {max-width:800px; margin:0 auto;	padding-bottom:5px;}
+#banner{margin-bottom: 30px;}
+ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
+li.bjqs-slide{position:absolute; display:none;}
+ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999;}
+ul.bjqs-controls.v-centered li a{position:absolute;}
+ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
+ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
+ol.bjqs-markers{list-style: none; padding: 0; margin: 0; width:100%;}
+ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers li{display:inline;}
+ol.bjqs-markers li a{display:inline-block;}
+p.bjqs-caption{display:block;width:96%;margin:0;padding:2%;position:absolute;bottom:0;}
+
+
+ul.bjqs-controls.v-centered li a{
+	display:block;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+	background:#000;
+	color:#fff;
+}
+
+ol.bjqs-markers li a{
+	padding:5px 10px;
+	background:#000;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	background: #999;
+}
+
+p.bjqs-caption{
+	background: rgba(255,255,255,0.5);
+}
+
+
